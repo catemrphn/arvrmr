@@ -1,0 +1,139 @@
+.menu {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+}
+
+.logo_menu {
+    height: 3em;
+    width: 9em;
+}
+.msg_logo {
+    height: 3em;
+    width: 3em;
+    margin: 0 1.6em;
+}
+
+.menu__navbar {
+    padding-top: 1em;
+}
+
+.text__lead {
+    width: 10em;
+}
+
+.jumbotron {
+    display:block;
+    margin-bottom: 0;
+}
+
+.logo_lead {
+    height: 9em;
+    margin: 0 1.6em;
+}
+
+.logo_lead_left {
+    margin-right: 45em;
+}
+
+.vr-row {
+    margin-right: 7em;
+
+}
+
+.ar-row, .mr-row {
+    margin-left: 3em;
+}
+
+.form-card {
+    padding: 1em 1em 1em 1em;
+    margin: 1em 1em 3em 4em;
+}
+
+.h3_text {
+    margin: 1em 1em 1em 1em;
+}
+
+.text_form {
+    margin: 1em 1em 1em 5em;
+
+}
+
+
+
+.callbackform {
+    /*background-color: bisque;*/
+}
+
+.row-grid {
+    background-color: black;
+    color: white;
+}
+
+.pic_grid {
+    width: 100%;
+}
+
+.grid {
+    padding: 0;
+}
+
+.pic_grid__text {
+    opacity: 0;
+    position: absolute;
+}
+
+
+.grid:hover {
+    content: ' ';
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    opacity: 0.8;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.grid:hover > .pic_grid__text {
+    opacity: 1;
+    position: absolute;
+    bottom: 3em;
+    /* left: 3em; */
+    padding-left: 4em;
+    color: white;
+    width: 20em;
+}
+
+.grid:hover:after {
+    opacity: 0;
+}
+
+.row-round {
+    background-color: white;
+}
+
+.row_call_us {
+    background-image: url("https://cdn.pixabay.com/photo/2014/11/19/09/49/boardwalk-537113_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: left, right;*/
+    background-attachment:  scroll;
+    padding-bottom: 2em;
+}
+
+.msg_logo_xl {
+    height: 6em;
+    width: 6em;
+    margin: 0 1.6em;
+}
+
+.row-contacts {
+    background: black;
+    color: white;
+}
+
+.row-round {
+    padding-bottom: 2em;
+}
