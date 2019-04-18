@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Open+Sans" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="revealator/fm.revealator.jquery.min.css">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 <div class="container-fluid">
-
 <!--Первый-->
 
     <div class="row menu navbar">
         <div class="col">
-            <img class="logo_menu" src="https://i.ibb.co/WftdtD3/logo-AVM.png" alt="logo"/>
+            <img class="logo_menu" src="img/logo_AVM.png" alt="logo"/>
         </div>
-        <div class="col-6">
+        <div class="col">
             <ul class="menu__navbar nav justify-content-center">
                 <li class="nav-item">
                     <p class="nav-link">Что мы делаем</p>
@@ -27,10 +28,10 @@
                     <p class="nav-link">Контакты</p>
                 </li>
         </div>
-        <div class="col d-flex justify-content-center">
-            <img class="msg_logo" src="https://image.flaticon.com/icons/svg/1680/1680033.svg" alt="callUs"/>
-            <img class="msg_logo" src="https://image.flaticon.com/icons/svg/906/906377.svg" alt="telegram"/>
-            <img class="msg_logo" src="https://image.flaticon.com/icons/svg/1384/1384055.svg" alt="whatsupp"/>
+        <div class="col d-flex justify-content-end">
+            <img class="msg_logo" src="img/phone.png" alt="callUs"/>
+            <img class="msg_logo" src="img/telegram.png" alt="telegram"/>
+            <img class="msg_logo" src="img/whatsapp.png" alt="whatsupp"/>
         </div>
     </div>
 
@@ -145,6 +146,7 @@
 
                 </div>
             </div>
+
             <div class="row">
                 <div class="col grid">
                     <img class="pic_grid" src="https://angvremya.ru/uploads/posts/2017-10/1507474859_dsc_5240.jpg" alt="pic2"/>
@@ -164,7 +166,6 @@
                 <div class="col grid">
                     <img class="pic_grid" src="https://angvremya.ru/uploads/posts/2017-10/1507474859_dsc_5240.jpg" alt="pic2"/>
                     <p class="pic_grid__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem consequuntur cum delectus earum in iure magni minus</p>
-
                 </div>
             </div>
         </div>
@@ -172,18 +173,35 @@
 
     <!--Пятый-->
 
-    <div class="row row-round">
+    <div class="row row-round d-flex justify-content-center">
         <div class="row">
             <div class="col d-flex justify-content-center">
                 <h3 class="h3_text"> Проект за 4 шага</h3>
             </div>
-            <div class="row">
-                <div class="col"></div>
-                <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur impedit, inventore itaque maiores nemo officia quaerat quibusdam quis sequi, sit velit voluptate voluptates. Aperiam dolorum expedita modi? Hic, nemo.   </p>
-                </div>
-                <div class="col"></div>
+            <div class="w-100"></div>
+
+            <!--<div class="row">-->
+                    <div class="col d-flex justify-content-center">
+                        <div class="revealator-fade revealator-delay4 revealator-once">
+                            <img class="pic_round" src="img/idea.png" alt="idea"/>
+                            <p class="text_round">Идея<br> Изучаем ваш продукт, выстраиваем концепцию проекта и обсуждаем с вами </p>
+                        </div>
+                        <div class="revealator-fade revealator-delay10 revealator-once">
+                            <img class="pic_round " src="img/tz.png" alt="tz"/>
+                            <p class="text_round">Техническое задание<br> Разработка карты проекта, согласование нюансов, подписание договора, начало работы по проекту </p>
+                        </div>
+                        <div class="revealator-fade revealator-delay16 revealator-once">
+                            <img class="pic_round" src="img/rp.png" alt="rp"/>
+                            <p class="text_round">Реализация проекта<br> назначение менеджера, который полностью курирует ваш проект, поэтапная разработка проекта, еженедельные отчеты </p>
+                        </div>
+                        <div class="revealator-fade revealator-delay22 revealator-once">
+                            <img class="pic_round " src="img/help.png" alt="help"/>
+                            <p class="text_round">Запуск и поддержка<br> сдача готового проекта и его запуск - с этого только начинается наше сотрудничество. Мы продолжаем развивать и продвигать ваши идеи!</p>
+                        </div>
+                    </div>
+
             </div>
+                <!--</div>-->
         </div>
     </div>
 
@@ -201,15 +219,26 @@
 
     <!--Седьмой-->
 
-    <div class="row row-contacts">
+    <div class="row row-contacts d-flex justify-content-center align-items-center">
         <div class="col d-flex justify-content-center">
             <h3 class="h3_text">Наши контакты</h3>
         </div>
         <div class="w-100"></div>
-        <div class="col d-flex justify-content-center align-items-center">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem culpa distinctio fugit inventore, libero nulla quos similique tempore totam. Accusantium fugit numquam optio repudiandae? Aliquid delectus hic necessitatibus saepe?</p>
+        <div class="row d-flex justify-content-center align-items-center">
+            <p>+7(904)054-49-59</p>
+            <div class="w-100"></div>
+            <p> info@avmtechnology.ru</p>
+            <div class="w-100"></div>
+            <img class="msg_logo_xs" src="img/telegram.png" alt="telegram"/>
+            <img class="msg_logo_xs" src="img/whatsapp.png" alt="whatsupp"/>
+            <img class="msg_logo_xs" src="img/inst.png" alt="inst"/>
+            <img class="msg_logo_xs" src="img/youtube.png" alt="youtube"/>
         </div>
     </div>
+
 </div>
+
+<script src="revealator/jquery-1.11.3.min.js"></script>
+<script src="revealator/fm.revealator.jquery.min.js"></script>
 </body>
 </html>

@@ -1,7 +1,14 @@
+
+
+* {
+    font-family: 'IBM Plex Sans','Open Sans', sans-serif;
+}
+
 .menu {
     background-color: black;
     color: white;
     padding: 0.5em;
+    /*position: fixed;*/
 }
 
 .logo_menu {
@@ -110,12 +117,9 @@
     opacity: 0;
 }
 
-.row-round {
-    background-color: white;
-}
 
 .row_call_us {
-    background-image: url("https://cdn.pixabay.com/photo/2014/11/19/09/49/boardwalk-537113_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/04/03/27/flowers-4101916_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /*background-position: left, right;*/
@@ -132,8 +136,29 @@
 .row-contacts {
     background: black;
     color: white;
+    padding-bottom: 2em;
 }
 
 .row-round {
     padding-bottom: 2em;
+    color: white;
+    background-color: black;
+
+}
+
+.msg_logo_xs {
+    height: 2em;
+    /*width: 1em;*/
+    margin: 1em;
+}
+
+.pic_round {
+    height: 9em;
+    margin: 2em 4em;
+}
+
+.text_round {
+    width: 15em;
+    margin: 1em;
+    text-align: center;
 }
