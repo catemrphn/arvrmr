@@ -1,19 +1,41 @@
-
-
 * {
-    font-family: 'IBM Plex Sans','Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /*font-size: 13px;*/
+}
+
+a, a:hover {
+    color:white;
+    text-decoration: none;
+}
+.nav-link {
+    font-size: 1.2em;
+    font-weight: 100;
 }
 
 .menu {
     background-color: black;
     color: white;
-    padding: 0.5em;
-    /*position: fixed;*/
+    padding:0 0.5em;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 14px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
 }
 
 .logo_menu {
     height: 3em;
     width: 9em;
+    margin: 0.5em;
 }
 .msg_logo {
     height: 3em;
@@ -26,30 +48,86 @@
 }
 
 .text__lead {
-    width: 10em;
+    width: 20em;
+    border-left: 0.1em solid white;
+    padding: 0 2em;
 }
 
-.jumbotron {
+.projects_block_right_side {
+    background-image: url("img/right.svg");
+    background-position:  right;
+    /*background-attachment: fixed;*/
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.projects_block {
+    /*margin-top: em;*/
+    /*padding: 2rem 1rem;*/
+    /*margin-bottom: 2rem;*/
+    /*border-radius: 0.3rem;*/
     display:block;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
+    /*margin-top: 2em;*/
+    background-image: url("img/left.svg");
+    background-position: left;
+    background-size: contain;
+    background-color: black;
+    background-repeat: no-repeat;
+    padding-bottom: 2em;
+}
+
+.display-1 {
+    margin-top: 0.3em;
+    margin-left: 1em;
+    margin-bottom: 0.2em;
+
 }
 
 .logo_lead {
-    height: 9em;
-    margin: 0 1.6em;
+    height: 17em;
+    position: absolute;
+    margin: 0 2.6em;
+}
+
+.AR {
+    top: 15em;
+    left: 43em;
+
+}
+
+.VR {
+    top: -1em;
+    right: 44em;
+}
+
+.MR {
+    top: 58em;
+    left: 44em;
 }
 
 .logo_lead_left {
-    margin-right: 45em;
+    position: relative;
+    left: -14em;
 }
 
 .vr-row {
-    margin-right: 7em;
+    margin-right: 5em;
+    margin-bottom: 14em;
 
 }
 
-.ar-row, .mr-row {
+.mr-row {
+    margin-left:3em;
+    margin-bottom: 6em;
+}
+
+.ar-row {
     margin-left: 3em;
+    margin-bottom: 8em;
+
 }
 
 .form-card {
@@ -62,7 +140,7 @@
 }
 
 .text_form {
-    margin: 1em 1em 1em 5em;
+    margin: 1em 1em 1em 4em;
 
 }
 
@@ -78,7 +156,8 @@
 }
 
 .pic_grid {
-    width: 100%;
+    width: 75%;
+    display: block;
 }
 
 .grid {

@@ -6,78 +6,95 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="revealator/fm.revealator.jquery.min.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
 </head>
 <body>
 <div class="container-fluid">
 <!--Первый-->
 
-    <div class="row menu navbar">
-        <div class="col">
+    <div class="row menu sticky-top">
+        <div class="col-auto">
             <img class="logo_menu" src="img/logo_AVM.png" alt="logo"/>
         </div>
-        <div class="col">
+        <div class="col" id="menu">
             <ul class="menu__navbar nav justify-content-center">
                 <li class="nav-item">
-                    <p class="nav-link">Что мы делаем</p>
+                    <p class="nav-link"><a href="#WhatWeDo">ЧТО МЫ ДЕЛАЕМ</a></p>
                 </li>
                 <li class="nav-item">
-                    <p class="nav-link">Схема работы</p>
+                    <p class="nav-link"><a href="#howWorks">СХЕМА РАБОТЫ</a></p>
                 </li>
                 <li class="nav-item">
-                    <p class="nav-link">Контакты</p>
+                    <p class="nav-link"><a href="#contacts">КОНТАКТЫ</a></p>
                 </li>
         </div>
-        <div class="col d-flex justify-content-end">
-            <img class="msg_logo" src="img/phone.png" alt="callUs"/>
-            <img class="msg_logo" src="img/telegram.png" alt="telegram"/>
-            <img class="msg_logo" src="img/whatsapp.png" alt="whatsupp"/>
+        <div class="col-auto d-flex justify-content-end">
+            <a href="">
+                <img class="msg_logo" src="img/phone.png" alt="callUs"/>
+            </a>
+            <a href="">
+                <img class="msg_logo" src="img/telegram.png" alt="telegram"/>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=79040574959">
+                <img class="msg_logo" src="img/whatsapp.png" alt="whatsupp"/>
+            </a>
         </div>
     </div>
 
 <!--Второй-->
 
-    <div class="row jumbotron">
-        <div class="row d-flex justify-content-center">
-            <h1 class="display-4">AR & VR & MR</h1>
-        </div>
+    <div class="row projects_block">
+        <div class="projects_block_right_side">
         <div class="row">
-            <div class="col-auto d-flex align-items-center ar-row">
-            <h3>AR</h3>
-            </div>
-            <div class="col">
-            <p class="lead text__lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem consequuntur cum delectus earum in iure magni minus</p>
+            <h1 class="display-1">AR&VR&MR<br>ПРОЕКТЫ</h1>
         </div>
-            <div class="col"></div>
-            <div class="col d-flex align-items-center">
-                <img class="logo_lead" src="https://image.flaticon.com/icons/svg/1615/1615105.svg" alt="AR"/>
+        <div class="row ar-row">
+            <div class="col-auto d-flex align-items-center">
+                 <h1 class="display-3">AR</h1>
             </div>
+            <div class="col-auto d-flex align-items-center">
+            <p class="lead text__lead">
+                <strong>ДОПОЛНЕННАЯ РЕАЛЬНОСТЬ</strong>
+                <br>
+                Позволяет "накладывать" виртуальный контент на реальный мир.
+            </p>
         </div>
-        <div class="row justify-content-end">
-            <div class="col-auto d-flex align-items-center vr-row">
-                <div class="col"></div>
-                <div class="col">
-                    <img class="logo_lead logo_lead_left" src="https://image.flaticon.com/icons/svg/1679/1679047.svg" alt="VR"/>
-                </div>
-                <h3>VR</h3>
+            <!--<div class="d-flex align-items-center">-->
+                <img class="logo_lead AR" src="img/2.png" alt="AR"/>
+            <!--</div>-->
+        </div>
+        <div class="row justify-content-end vr-row">
+            <div class="col-auto d-flex align-items-center">
+                <h1 class="display-3">VR</h1>
             <div class="col-auto">
-            <p class="lead text__lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem consequuntur cum delectus earum in iure magni minus</p>
+            <p class="lead text__lead">
+                <strong>ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ</strong>
+                <br>
+                Погружение в 3D-мир с помощью шлема или очков виртуальной реальности.
+            </p>
             </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-auto d-flex align-items-center mr-row">
-            <h3>MR</h3>
-            </div>
-            <div class="col">
-            <p class="lead text__lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem consequuntur cum delectus earum in iure magni minus</p>
-            </div>
-            <div class="col"></div>
-
-            <div class="col d-flex align-items-center">
-                <img class="logo_lead" src="https://image.flaticon.com/icons/svg/1679/1679040.svg" alt="MR"/>
+                <!--<div class="d-flex align-items-center">-->
+                    <img class="logo_lead VR" src="img/1.png" alt="VR"/>
+                <!--</div>-->
             </div>
         </div>
+        <div class="row mr-row">
+            <div class="col-auto d-flex align-items-center">
+            <h1 class="display-3">MR</h1>
+            </div>
+            <div class="col-auto d-flex align-items-center">
+            <p class="lead text__lead">
+                <strong>СМЕШАННАЯ РЕАЛЬНОСТЬ</strong>
+                <br>
+                Видео, в которых VR-контент совмещается с видеорядом, снимаемым в реальном времени.
+            </p>
+            </div>
+            <!--<div class="d-flex align-items-center">-->
+                <img class="logo_lead MR" src="img/3.png" alt="MR"/>
+            <!--</div>-->
+        </div>
+    </div>
     </div>
 
 <!--Третий-->
@@ -85,7 +102,7 @@
     <div class="row">
         <div class="row">
             <div class="col">
-                   <h3 class="text_form">Давайте обсудим</h3>
+                   <h3 class="text_form">ДАВАЙТЕ ОБСУДИМ</h3>
              </div>
         </div>
         <div class="row">
@@ -116,15 +133,15 @@
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem consequuntur cum delectus earum in iure magni minus</p>
             </div>
             <div class="col"></div>
+
         </div>
     </div>
 
 <!--Четвертый-->
-
     <div class="row row-grid">
         <div class="row">
             <div class="col d-flex justify-content-center">
-                 <h3 class="h3_text"> Что мы делаем?</h3>
+                 <h3 class="h3_text" id="WhatWeDo">ЧТО МЫ ДЕЛАЕМ?</h3>
             </div>
             <div class="row">
                 <div class="col grid">
@@ -146,6 +163,7 @@
 
                 </div>
             </div>
+                <div class="w-100"></div>
 
             <div class="row">
                 <div class="col grid">
@@ -176,40 +194,39 @@
     <div class="row row-round d-flex justify-content-center">
         <div class="row">
             <div class="col d-flex justify-content-center">
-                <h3 class="h3_text"> Проект за 4 шага</h3>
+                <h3 class="h3_text" id="howWorks">ПРОЕКТ ЗА 4 ШАГА</h3>
             </div>
             <div class="w-100"></div>
 
             <!--<div class="row">-->
                     <div class="col d-flex justify-content-center">
-                        <div class="revealator-fade revealator-delay4 revealator-once">
+                        <div class="revealator-fade revealator-delay  revealator-once revealator-below">
                             <img class="pic_round" src="img/idea.png" alt="idea"/>
-                            <p class="text_round">Идея<br> Изучаем ваш продукт, выстраиваем концепцию проекта и обсуждаем с вами </p>
+                            <p class="text_round"><strong>ИДЕЯ</strong><br> Изучаем ваш продукт, выстраиваем концепцию проекта и обсуждаем с вами </p>
                         </div>
-                        <div class="revealator-fade revealator-delay10 revealator-once">
+                        <div class="revealator-fade revealator-delay3  revealator-once revealator-below">
                             <img class="pic_round " src="img/tz.png" alt="tz"/>
-                            <p class="text_round">Техническое задание<br> Разработка карты проекта, согласование нюансов, подписание договора, начало работы по проекту </p>
+                            <p class="text_round"><strong>ТЕХНИЧЕСКОЕ ЗАДАНИЕ</strong><br> Разработка карты проекта, согласование нюансов, подписание договора, начало работы по проекту </p>
                         </div>
-                        <div class="revealator-fade revealator-delay16 revealator-once">
+                        <div class="revealator-fade revealator-delay6  revealator-once revealator-below">
                             <img class="pic_round" src="img/rp.png" alt="rp"/>
-                            <p class="text_round">Реализация проекта<br> назначение менеджера, который полностью курирует ваш проект, поэтапная разработка проекта, еженедельные отчеты </p>
+                            <p class="text_round"><strong>РЕАЛИЗАЦИЯ ПРОЕКТА</strong><br> назначение менеджера, который полностью курирует ваш проект, поэтапная разработка проекта, еженедельные отчеты </p>
                         </div>
-                        <div class="revealator-fade revealator-delay22 revealator-once">
+                        <div class="revealator-fade revealator-delay9  revealator-once revealator-below">
                             <img class="pic_round " src="img/help.png" alt="help"/>
-                            <p class="text_round">Запуск и поддержка<br> сдача готового проекта и его запуск - с этого только начинается наше сотрудничество. Мы продолжаем развивать и продвигать ваши идеи!</p>
+                            <p class="text_round"><strong>ЗАПУСК И ПОДДЕРЖКА</strong><br> сдача готового проекта и его запуск - с этого только начинается наше сотрудничество. Мы продолжаем развивать и продвигать ваши идеи!</p>
                         </div>
                     </div>
 
             </div>
                 <!--</div>-->
         </div>
-    </div>
 
     <!--Шестой-->
 
     <div class="row row_call_us">
             <div class="col d-flex justify-content-center">
-                <h3 class="h3_text">Давайте действовать</h3>
+                <h3 class="h3_text">ДАВАЙТЕ ДЕЙСТВОВАТЬ</h3>
             </div>
               <div class="w-100"></div>
                 <div class="col d-flex justify-content-center align-items-center">
@@ -221,24 +238,36 @@
 
     <div class="row row-contacts d-flex justify-content-center align-items-center">
         <div class="col d-flex justify-content-center">
-            <h3 class="h3_text">Наши контакты</h3>
+            <h3 class="h3_text" id="contacts">КОНТАКТЫ</h3>
         </div>
         <div class="w-100"></div>
         <div class="row d-flex justify-content-center align-items-center">
-            <p>+7(904)054-49-59</p>
+            <p>+7(904)057-49-59</p>
             <div class="w-100"></div>
             <p> info@avmtechnology.ru</p>
             <div class="w-100"></div>
-            <img class="msg_logo_xs" src="img/telegram.png" alt="telegram"/>
-            <img class="msg_logo_xs" src="img/whatsapp.png" alt="whatsupp"/>
-            <img class="msg_logo_xs" src="img/inst.png" alt="inst"/>
-            <img class="msg_logo_xs" src="img/youtube.png" alt="youtube"/>
+            <a href="">
+                 <img class="msg_logo_xs" src="img/telegram.png" alt="telegram"/>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=79040574959">
+                <img class="msg_logo_xs" src="img/whatsapp.png" alt="whatsupp"/>
+            </a>
+            <a href="https://www.instagram.com/">
+                <img class="msg_logo_xs" src="img/inst.png" alt="inst"/>
+            </a>
+            <a href="https://www.youtube.com/">
+                <img class="msg_logo_xs" src="img/youtube.png" alt="youtube"/>
+            </a>
         </div>
     </div>
 
 </div>
+</div>
+
 
 <script src="revealator/jquery-1.11.3.min.js"></script>
 <script src="revealator/fm.revealator.jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </body>
 </html>

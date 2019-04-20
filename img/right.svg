@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1178px" height="7110px" viewBox="0 0 1178 7110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="99.9949066%" y1="-0.0183864119%" x2="99.9949066%" y2="99.996603%" id="linearGradient-1">
+            <stop stop-color="#00A4F6" offset="0%"></stop>
+            <stop stop-color="#00F091" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9935897%" y1="2.41763763%" x2="104.023504%" y2="105.369856%" id="linearGradient-2">
+            <stop stop-color="#00A4F6" offset="0%"></stop>
+            <stop stop-color="#00F091" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9908257%" y1="2.60856269%" x2="99.9908257%" y2="97.3318043%" id="linearGradient-3">
+            <stop stop-color="#00A4F6" offset="0%"></stop>
+            <stop stop-color="#00F091" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="209.410876%" y1="-8.15233786%" x2="213.410876%" y2="108.675716%" id="linearGradient-4">
+            <stop stop-color="#00A4F6" offset="0%"></stop>
+            <stop stop-color="#00F091" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="210.077273%" y1="-8.39591219%" x2="214.089394%" y2="108.875095%" id="linearGradient-5">
+            <stop stop-color="#00A4F6" offset="0%"></stop>
+            <stop stop-color="#00F091" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="211.690076%" y1="-8.91666667%" x2="215.732824%" y2="110.615741%" id="linearGradient-6">
+            <stop stop-color="#00A4F6" offset="0%"></stop>
+            <stop stop-color="#00F091" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fon" transform="translate(-2317.000000, 0.000000)">
+            <g id="right" transform="translate(2317.000000, 0.000000)">
+                <polygon id="Shape" fill="#000000" points="0 0 1178 0 1178 7110 0 7110"></polygon>
+                <g id="right_half_cubes" transform="translate(0.000000, 971.000000)" fill-rule="nonzero">
+                    <polygon id="Shape" fill="url(#linearGradient-1)" points="1178 2355 0 1161 1178 0 1178 55 56 1161 1178 2299"></polygon>
+                    <polygon id="Shape" fill="url(#linearGradient-2)" points="1178 2111 242 1163 1178 240 1178 286 288 1163 1178 2065"></polygon>
+                    <polygon id="Shape" fill="url(#linearGradient-3)" points="1178 1830 524 1167 1178 522 1178 556 559 1167 1178 1795"></polygon>
+                </g>
+                <g id="right_down_half_cubes" transform="translate(516.000000, 5154.000000)" fill-rule="nonzero">
+                    <polygon id="Shape" fill="url(#linearGradient-4)" points="662 0 0 695 662 1326 662 1284 43 694 662 44"></polygon>
+                    <polygon id="Shape" fill="url(#linearGradient-5)" points="662 281 2 973 662 1602 662 1560 45 972 662 325"></polygon>
+                    <polygon id="Shape" fill="url(#linearGradient-6)" points="662 596 7 1283 646 1892 662 1892 662 1865 50 1282 662 641"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
