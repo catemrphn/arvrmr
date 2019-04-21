@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    let margin=80;
+    let margin=70;
     $("a[href*=#]").on("click", function (e) {
         var anchor = $(this);
         $('html, body').stop().animate({

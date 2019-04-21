@@ -3,6 +3,18 @@
     /*font-size: 13px;*/
 }
 
+body{
+    width: 100%;
+}
+.col {
+    padding: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 a, a:hover {
     color:white;
     text-decoration: none;
@@ -13,6 +25,7 @@ a, a:hover {
 }
 
 .menu {
+    width: 100%;
     background-color: black;
     color: white;
     padding:0 0.5em;
@@ -35,6 +48,9 @@ a, a:hover {
 .logo_menu {
     height: 3em;
     width: 9em;
+    /*height: 40px;*/
+    /*width: 150px;*/
+
     margin: 0.5em;
 }
 .msg_logo {
@@ -55,7 +71,7 @@ a, a:hover {
 
 .projects_block_right_side {
     background-image: url("img/right.svg");
-    background-position:  right;
+    background-position: center right;
     /*background-attachment: fixed;*/
     background-size: contain;
 
@@ -80,32 +96,39 @@ a, a:hover {
 }
 
 .display-1 {
+    /*margin: 0;*/
     margin-top: 0.3em;
     margin-left: 1em;
     margin-bottom: 0.2em;
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
 
+.ar-row > .logo_lead {
+    height: 20em;
 }
 
 .logo_lead {
     height: 17em;
-    position: absolute;
+    position: relative;
     margin: 0 2.6em;
 }
 
 .AR {
-    top: 15em;
-    left: 43em;
+    top: -8em;
+    left: 4em;
 
 }
 
 .VR {
     top: -1em;
-    right: 44em;
+    right: 2em;
 }
 
 .MR {
-    top: 58em;
-    left: 44em;
+    top: 1em;
+    left: 3em;
 }
 
 .logo_lead_left {
@@ -120,13 +143,14 @@ a, a:hover {
 }
 
 .mr-row {
+    margin-top: -10em;
     margin-left:3em;
     margin-bottom: 6em;
 }
 
 .ar-row {
     margin-left: 3em;
-    margin-bottom: 8em;
+    /*margin-bottom: 8em;*/
 
 }
 
@@ -136,7 +160,7 @@ a, a:hover {
 }
 
 .h3_text {
-    margin: 1em 1em 1em 1em;
+    margin: 0.5em;
 }
 
 .text_form {
@@ -156,7 +180,7 @@ a, a:hover {
 }
 
 .pic_grid {
-    width: 75%;
+    width: 100%;
     display: block;
 }
 
@@ -167,6 +191,8 @@ a, a:hover {
 .pic_grid__text {
     opacity: 0;
     position: absolute;
+    top: 35%;
+
 }
 
 
@@ -198,12 +224,13 @@ a, a:hover {
 
 
 .row_call_us {
-    background-image: url("https://cdn.pixabay.com/photo/2019/04/04/03/27/flowers-4101916_1280.jpg");
+    background-image: url("img/fon2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-position: left, right;*/
-    background-attachment:  scroll;
-    padding-bottom: 2em;
+    background-attachment: fixed;
+    background-position: top;
+    padding: 2em 0;
+    min-height: 200px;
 }
 
 .msg_logo_xl {
@@ -215,7 +242,7 @@ a, a:hover {
 .row-contacts {
     background: black;
     color: white;
-    padding-bottom: 2em;
+    padding: 1.5em 0;
 }
 
 .row-round {
