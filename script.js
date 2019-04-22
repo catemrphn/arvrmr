@@ -9,3 +9,13 @@ $(document).ready(function () {
         return false;
     });
 });
+
+
+// $("#form-row").vide('video.mp4', {
+//     volume: 1, // звук
+//     playbackRate: 1, // скорость воспроизведения
+//     muted: true, // отключен ли звук
+//     loop: true, // закцикливание
+//     autoplay: true, // автовоспроизведение
+//     position: "50% 50%" // выравнивание
+// });
