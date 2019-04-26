@@ -1,25 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="revealator/fm.revealator.jquery.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Title</title>
+    <link rel="stylesheet" media="only screen and (color)" href="modern-styles.css"/>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8">-->
+    <link rel="shortcut icon" href="img/avm.ico" type="image/x-icon">
+
+
+
+
+    <title>AVM Technology</title>
 </head>
 <body>
 <!--<div>-->
 <!--Первый-->
 
-<div class="row menu sticky-top">
-    <div class="col-auto">
+<div class="row menu_xs sticky-top align-items-center ">
+        <div class="menu__icon col">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    <div class="col-lg-auto col-5 d-flex align-items-center ">
         <img class="logo_menu" src="img/logo_AVM.png" alt="logo"/>
     </div>
-    <div class="col" id="menu">
-        <ul class="menu__navbar nav justify-content-center">
+    <div class="col-md-auto col-5 order-2 order-md-3 d-flex justify-content-end">
+        <a href="tel:+79040574959" target="_blank">
+            <img class="msg_logo" src="img/phone.png" alt="callUs"/>
+        </a>
+        <a href="https://t-do.ru/avmtechnology" target="_blank">
+            <img class="msg_logo" src="img/telegram.png" alt="telegram"/>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=79040574959" target="_blank">
+            <img class="msg_logo" src="img/whatsapp.png" alt="whatsupp"/>
+        </a>
+    </div>
+<!--</div>-->
+        <div class="col-12 menu__links">
+            <a class="menu__links-item" href="#WhatWeDo">ЧТО МЫ ДЕЛАЕМ</a>
+            <a class="menu__links-item" href="#howWorks">СХЕМА РАБОТЫ</a>
+            <a class="menu__links-item" href="#contacts">КОНТАКТЫ</a>
+        </div>
+</div>
+
+<div class="row menu sticky-top">
+    <div class="col-lg-auto col-5 d-flex align-items-center ">
+        <img class="logo_menu" src="img/logo_AVM.png" alt="logo"/>
+    </div>
+    <div class="col-12 col-md-auto order-md-2 order-3 justify-content-center d-flex align-items-center" id="menu">
+        <ul class="menu__navbar  justify-content-center align-items-center">
             <li class="nav-item">
                 <p class="nav-link"><a href="#WhatWeDo">ЧТО МЫ ДЕЛАЕМ</a></p>
             </li>
@@ -29,15 +64,16 @@
             <li class="nav-item">
                 <p class="nav-link"><a href="#contacts">КОНТАКТЫ</a></p>
             </li>
+        </ul>
     </div>
-    <div class="col-auto d-flex justify-content-end">
-        <a href="">
+    <div class="col-md-auto col-6 order-2 order-md-3 d-flex justify-content-end">
+        <a href="tel://+79040574959" target="_blank">
             <img class="msg_logo" src="img/phone.png" alt="callUs"/>
         </a>
-        <a href="">
+        <a href="https://t-do.ru/avmtechnology" target="_blank">
             <img class="msg_logo" src="img/telegram.png" alt="telegram"/>
         </a>
-        <a href="https://api.whatsapp.com/send?phone=79040574959">
+        <a href="https://api.whatsapp.com/send?phone=79040574959" target="_blank">
             <img class="msg_logo" src="img/whatsapp.png" alt="whatsupp"/>
         </a>
     </div>
@@ -45,35 +81,41 @@
 
 <!--Второй-->
 
-<div class="row projects_block">
-    <div class="projects_block_right_side">
-        <div class="row">
-            <p class="display-1">AR&VR&MR<br>ПРОЕКТЫ</p>
-        </div>
-        <div class="row ar-row">
-            <div class="col-auto d-flex align-items-center">
-                <h1 class="display-3">AR</h1>
-                <!--</div>-->
-                <div class="col-auto d-flex align-items-center">
-                    <p class="lead text__lead">
+<div class="container-fluid">
+    <div class=" projects_block">
+        <div class="projects_block_right_side">
+            <div class="row">
+                <div class="col-12 ">
+                    <p class="display-1">AR&VR&MR<br>ПРОЕКТЫ</p>
+                </div>
+            </div>
+
+            <div class="row ar-row">
+                <div class="col-xs-12 col-md-4 d-flex align-items-center revealator-slideright revealator-duration revealator-once">
+                    <h1 class="display-3">AR</h1>
+                    <!--</div>-->
+                    <!--<div class="col-auto d-flex align-items-center">-->
+                    <p class="text__lead">
                         <strong>ДОПОЛНЕННАЯ РЕАЛЬНОСТЬ</strong>
                         <br>
                         Позволяет "накладывать" виртуальный контент на реальный мир.
                     </p>
                 </div>
+                <div class="col-6 col-xs-12">
+                    <img class="logo_lead AR" id="logo_AR" src="img/2.png" alt="AR"/>
+                </div>
             </div>
-            <!--<div class="d-flex align-items-center">-->
-            <img class="logo_lead AR" src="img/2.png" alt="AR"/>
             <!--</div>-->
-        </div>
-        <div class="row justify-content-end vr-row ">
-            <img class="logo_lead VR" src="img/1.png" alt="VR"/>
 
-            <div class="col-auto d-flex align-items-center">
 
-                <h1 class="display-3">VR</h1>
-                <div class="col-auto">
-                    <p class="lead text__lead">
+            <div class="row vr-row">
+                <div class="col-xs-12 col-md-8 order-2">
+                    <img class="logo_lead VR" id="logo_VR" src="img/1.png" alt="VR"/>
+                </div>
+                <div class="vr-row-text-xs col-xs-12 col-md-4 order-md-2 d-flex align-items-center revealator-slideleft revealator-delay4 revealator-duration revealator-once">
+                    <h1 class="display-3">VR</h1>
+                    <!--<div class="col-auto">-->
+                    <p class="text__lead">
                         <strong>ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ</strong>
                         <br>
                         Погружение в 3D-мир с помощью шлема или очков виртуальной реальности.
@@ -82,55 +124,56 @@
                 <!--<div class="d-flex align-items-center">-->
                 <!--</div>-->
             </div>
-        </div>
-        <div class="row mr-row">
-            <div class="col-auto d-flex align-items-center">
-                <h1 class="display-3">MR</h1>
-                <div class="col-auto d-flex align-items-center">
-                    <p class="lead text__lead">
+            <!--</div>-->
+            <div class="row mr-row">
+                <div class="col-xs-12 col-md-4 d-flex align-items-center revealator-slideright revealator-delay8 revealator-duration revealator-once">
+                    <h1 class="display-3">MR</h1>
+                    <!--<div class="col-auto d-flex align-items-center">-->
+                    <p class="text__lead">
                         <strong>СМЕШАННАЯ РЕАЛЬНОСТЬ</strong>
                         <br>
                         Видео, в которых VR-контент совмещается с видеорядом, снимаемым в реальном времени.
                     </p>
+                    <!--</div>-->
+                </div>
+                <div class="col-xs-12 d-flex align-items-center">
+                    <img class="logo_lead MR" id="logo_MR" src="img/3.png" alt="MR"/>
                 </div>
             </div>
-
-            <!--<div class="d-flex align-items-center">-->
-            <img class="logo_lead MR" src="img/3.png" alt="MR"/>
-            <!--</div>-->
         </div>
     </div>
 </div>
 
 <!--Третий-->
 
-<div class=" form-row row ">
-    <video id="video" autoplay loop muted preload="auto">
-        <source src="video.mp4"/>
+<div class=" form-row row justify-content-around">
+    <video id="video" preload="metadata" muted="muted" autoplay loop playsinline controls="true">
+        <source src="video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
     </video>
-    <div class="row">
-        <div class="col-4">
+    <!--<div class="row">-->
+        <div class="col-md-4 col-12 order-2 order-md-1">
             <div class="card form-card">
-                <div class="justify-content-center d-flex align-items-center">
+                <div class=" col-md-12 col-12  justify-content-center d-flex align-items-center">
                     <h5 >
                         ДАВАЙТЕ ОБСУДИМ
                     </h5>
                 </div>
-                <form>
+                <!--<form method="post" id="ajax_form" action="https://submit-form.com/Sbk8eGFit9NHTK2xpGCxE"  target="_self">-->
+                <form action="https://submit-form.com/GmWujVXApxhMovryX76HF"  target="_self">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Имя</label>
-                        <input class="form-control" type="text" placeholder="Василиса">
+                        <input class="form-control" type="text" name="NAME" placeholder="">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Почта</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="email" class="form-control" name="EMAIL" id="exampleFormControlInput1" placeholder="">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Телефон</label>
-                        <input type="tel" class="form-control" id="exampleFormControlInput2" placeholder="+79101234567">
+                        <input type="tel" class="form-control" name="PHONE" id="exampleFormControlInput2" placeholder="">
                     </div>
                     <div class="form-group d-flex justify-content-center">
-                        <button class="btn btn-success btn-lg">Отправить</button>
+                        <input class="btn btn-success btn-lg" type="submit" id="Submit" />
                     </div>
                 </form>
                 <div class=" justify-content-center d-flex align-items-center">
@@ -138,86 +181,99 @@
                 </div>
             </div>
         </div>
-        <div class="col"></div>
+        <!--<div class="col"></div>-->
 
-        <div class="col-6 justify-content-center d-flex align-items-center">
+        <div class="col-md-6 col-12 order-1 order-md-2 justify-content-center d-flex align-items-center">
             <p class="form_lead">
-               <strong>AR&VR технологии</strong>  – эффективный маркетинговый инструмент, создающий прочный эмоциональный контакт между брендом и потребителем.<br>
-                Это лёгкий способ повысить скорость работы персонала, снизить количество ошибок и брака и установить надёжный контроль за исполнением рабочего процесса.<br>
-                Это действенный метод обучения и ускоренного запоминания информации за счет яркого и объемного визуального контента.
+               <strong style="font-size: 1.3em; font-weight: 200"> &nbsp;AR&VR технологии</strong>  – эффективный маркетинговый инструмент, создающий прочный эмоциональный контакт между брендом и потребителем.<br>
+                &nbsp; Это лёгкий способ повысить скорость работы персонала, снизить количество ошибок и брака и установить надёжный контроль за исполнением рабочего процесса.<br>
+                &nbsp;Это действенный метод обучения и ускоренного запоминания информации за счет яркого и объемного визуального контента.
                 Это технологии, позволяющие окунуться в виртуальный мир.<br><br>
-                Десятки компаний уже внедрили дополненную и виртуальную реальность в свою работу.<br> А вы успеваете за конкурентами?
+                &nbsp;Десятки компаний уже внедрили дополненную и виртуальную реальность в свою работу.<br>
+                А вы успеваете за конкурентами?
             </p>
         </div>
-        <div class="col"></div>
+        <!--<div class="col"></div>-->
 
-    </div>
-
+    <!--</div>-->
+    <!--</div>-->
 </div>
 
+<!--<img class="pic_grid" src="img/grid/2.jpg" alt="pic2"/>-->
 <!--Четвертый-->
 <div class="row row-grid">
-    <div class="row">
-        <div class="col d-flex justify-content-center">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col d-flex justify-content-center align-items-center">
             <h3 class="h3_text" id="WhatWeDo">ЧТО МЫ ДЕЛАЕМ?</h3>
         </div>
         <div class="row">
-            <div class="col grid">
+            <div class="col-md-3 col-6 grid align-items-center">
+                <a href="#">
                 <img class="pic_grid" src="img/grid/1.jpg" alt="pic1"/>
-                <p class="pic_grid__text">
+                <p class="pic_grid__text align-items-center">
                     VR|AR тренажеры и обучение для персонала
                 </p>
+                </a>
             </div>
-            <div class="col grid">
+            <div class="col-md-3 col-6 grid">
+                <a href="#">
                 <img class="pic_grid" src="img/grid/2.jpg" alt="pic2"/>
                 <p class="pic_grid__text">
                     Недвижимость и строительство
                 </p>
+                </a>
             </div>
-            <div class="col grid">
-                <img class="pic_grid" src="img/grid/3.png" alt="pic3"/>
+            <div class="col-md-3 col-6 grid">
+                <a href="#">
+                <img class="pic_grid" src="img/grid/3.jpg" alt="pic3"/>
                 <p class="pic_grid__text">
                     Развлечения и игры
                 </p>
-
+                </a>
             </div>
-            <div class="col grid">
-                <img class="pic_grid" src="img/grid/4.png" alt="pic4"/>
+            <div class="col-md-3 col-6 grid">
+                <a href="#">
+                <img class="pic_grid" src="img/grid/4.jpg" alt="pic4"/>
                 <p class="pic_grid__text">
                     Маркетинг и реклама
                 </p>
-
+                </a>
             </div>
-        </div>
-        <div class="w-100"></div>
+        <!--</div>-->
+        <!--<div class="w-100"></div>-->
 
-        <div class="row">
-            <div class="col grid">
-                <img class="pic_grid" src="img/grid/5.png" alt="pic5"/>
+        <!--<div class="row">-->
+            <div class="col-md-3 col-6 grid">
+                <a href="#">
+                <img class="pic_grid" src="img/grid/5.jpg" alt="pic5"/>
                 <p class="pic_grid__text">
                     Медицина
                 </p>
-
+                </a>
             </div>
-            <div class="col grid">
-                <img class="pic_grid" src="img/grid/6.png" alt="pic6"/>
+            <div class="col-md-3 col-6 grid">
+                <a href="#">
+                <img class="pic_grid" src="img/grid/6.jpg" alt="pic6"/>
                 <p class="pic_grid__text">
                     Промышленность
                 </p>
-
+                </a>
             </div>
-            <div class="col grid">
-                <img class="pic_grid" src="img/grid/7.png" alt="pic7"/>
+            <div class="col-md-3 col-6 grid">
+                <a href="#">
+                <img class="pic_grid" src="img/grid/7.jpg" alt="pic7"/>
                 <p class="pic_grid__text">
                     Образование
                 </p>
-
+                </a>
             </div>
-            <div class="col grid">
-                <img class="pic_grid" src="img/grid/8.png" alt="pic8"/>
-                <p class="pic_grid__text">
+            <div class="col-md-3 col-6 grid align-items-center">
+                <a href="#">
+                <img class="pic_grid" src="img/grid/8.jpg" alt="pic8"/>
+                <p class="pic_grid__text align-items-center">
                     Путешествия и экскурсии
                 </p>
+                </a>
             </div>
         </div>
     </div>
@@ -234,19 +290,19 @@
 <!----><div class="container-fluid">
         <div class="row justify-content-center">
         <!--<div class="col ">-->
-            <div class="col-auto">
+            <div class="col-auto revealator-fade revealator-duration20 revealator-once">
                 <img class="pic_round" src="img/idea.png" alt="idea"/>
-                <p class="text_round"><strong>ИДЕЯ</strong><br>Изучаем ваш продукт, выстраиваем концепцию проекта и обсуждаем с вами</p>
+                <p class="text_round "><strong>ИДЕЯ</strong><br>Изучаем ваш продукт, выстраиваем концепцию проекта и обсуждаем с вами</p>
             </div>
-            <div class="col-auto ">
+            <div class="col-auto revealator-fade revealator-delay2 revealator-duration20 revealator-once">
                 <img class="pic_round " src="img/tz.png" alt="tz"/>
-                <p class="text_round"><strong>ТЕХНИЧЕСКОЕ ЗАДАНИЕ</strong><br> азработка карты проекта, согласование нюансов, подписание договора, начало работы по проекту</p>
+                <p class="text_round"><strong>ТЕХНИЧЕСКОЕ ЗАДАНИЕ</strong><br>Разработка карты проекта, согласование нюансов, подписание договора, начало работы по проекту</p>
             </div>
-            <div class="col-auto">
+            <div class="col-auto revealator-fade revealator-delay4 revealator-duration20 revealator-once">
                 <img class="pic_round" src="img/rp.png" alt="rp"/>
                 <p class="text_round"><strong>РЕАЛИЗАЦИЯ ПРОЕКТА</strong><br>Назначение менеджера, который полностью курирует ваш проект, поэтапная разработка проекта, еженедельные отчеты</p>
             </div>
-            <div class="col-auto">
+            <div class="col-auto revealator-fade revealator-delay6 revealator-duration20 revealator-once">
                 <img class="pic_round " src="img/help.png" alt="help"/>
                 <p class="text_round"><strong>ЗАПУСК И ПОДДЕРЖКА</strong><br>Сдача готового проекта и его запуск - с этого только начинается наше сотрудничество. Мы продолжаем развивать и продвигать ваши идеи</p>
             </div>
@@ -260,12 +316,12 @@
 
 <div class="row row_call_us d-flex align-items-center">
 
-    <div class="col d-flex justify-content-center">
+    <div class="col d-flex justify-content-center align-items-center">
             <h3 class="h3_text">ДАВАЙТЕ ДЕЙСТВОВАТЬ!</h3>
     </div>
     <div class="w-100"></div>
     <div class="col d-flex justify-content-center">
-            <button class="btn btn-success btn-lg">Позвонить</button>
+        <a class="btn btn-success btn-lg" href="tel:+79040574959" target="_blank">Позвонить</a>
     </div>
 </div>
 
@@ -281,16 +337,16 @@
         <div class="w-100"></div>
         <p> info@avmtechnology.ru</p>
         <div class="w-100"></div>
-        <a href="">
+        <a href="https://t-do.ru/avmtechnology" target="_blank">
             <img class="msg_logo_xs" src="img/telegram.png" alt="telegram"/>
         </a>
-        <a href="https://api.whatsapp.com/send?phone=79040574959">
+        <a href="https://api.whatsapp.com/send?phone=79040574959" target="_blank">
             <img class="msg_logo_xs" src="img/whatsapp.png" alt="whatsupp"/>
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/" target="_blank">
             <img class="msg_logo_xs" src="img/inst.png" alt="inst"/>
         </a>
-        <a href="https://www.youtube.com/">
+        <a href="https://www.youtube.com/" target="_blank">
             <img class="msg_logo_xs" src="img/youtube.png" alt="youtube"/>
         </a>
     </div>
@@ -300,8 +356,12 @@
 <!--</div>-->
 
 
+<div id="result_form"></div>
+
+<!--<script src="/parallax.js-1.5.0/parallax.js"></script>-->
 <script src="revealator/jquery-1.11.3.min.js"></script>
 <!--<script src="http://atuin.ru/demo/vide/jquery.vide.js"></script>-->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="revealator/fm.revealator.jquery.min.js"></script>
 <script src="script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
