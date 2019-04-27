@@ -94,10 +94,17 @@
 }
 
 @media (max-width: 600px ) {
+
+    .revealator-fade, .revealator-slideright, .revealator-slideleft{
+        transform: translate(0, 0);
+
+        opacity: 1;
+    }
     .AR {
         /*top: -8em;*/
         /*left: 4em;*/
         height: 14em;
+        padding-left: 3em;
         /*top: 0;*/
         /*left: 5em;*/
     }
@@ -117,7 +124,7 @@
     }
 
     .vr-row-text-xs {
-        margin-left: 3.4em;
+        padding-left: 4.4em;
     }
 
     .text__lead {
@@ -127,7 +134,7 @@
 
     .MR {
         top: 0;
-        left: 1em;
+        padding-left: 4em;
         height: 12em;
 
     }

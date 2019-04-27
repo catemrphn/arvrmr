@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a150d94b-ce46-4c76-a579-1262b46159b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modern-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grid/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/grid/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grid/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/grid/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grid/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grid/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grid/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grid/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grid/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grid/8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactor.html" beforeDir="false" afterPath="$PROJECT_DIR$/refactor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modern-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/modern-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallax.js-1.5.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revealator/fm.revealator.jquery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/revealator/fm.revealator.jquery.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,13 +19,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="292" column="44" lean-forward="true" selection-start-line="292" selection-start-column="44" selection-end-line="292" selection-end-column="44" />
+            <state relative-caret-position="287">
+              <caret line="117" column="137" selection-start-line="117" selection-start-column="137" selection-end-line="117" selection-end-column="137" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#strong#0;n#p#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#8737#8743#0" expanded="true" />
@@ -48,20 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/revealator/fm.revealator.jquery.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="212" selection-start-column="212" selection-end-column="212" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1351">
-              <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+            <state relative-caret-position="177">
+              <caret line="154" column="9" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
               <folding>
                 <element signature="e#273#320#0" />
                 <element signature="e#331#378#0" />
@@ -97,19 +82,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script.js">
+        <entry file="file://$PROJECT_DIR$/modern-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+            <state relative-caret-position="-7">
+              <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modern-styles.css">
+        <entry file="file://$PROJECT_DIR$/revealator/fm.revealator.jquery.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="148">
+              <caret line="43" column="13" selection-start-line="43" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -151,8 +145,8 @@
       <find>menu__icon</find>
       <find>block</find>
       <find>!</find>
-      <find>video</find>
       <find>grid</find>
+      <find>video</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,6 +160,7 @@
         <option value="$PROJECT_DIR$/refactor.html" />
         <option value="$USER_HOME$/Desktop/file.json" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/revealator/fm.revealator.jquery.min.css" />
         <option value="$PROJECT_DIR$/modern-styles.css" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -247,12 +242,12 @@
       <workItem from="1555489760440" duration="33787000" />
       <workItem from="1555676677441" duration="4073000" />
       <workItem from="1555748375513" duration="37503000" />
-      <workItem from="1556005803735" duration="58495000" />
+      <workItem from="1556005803735" duration="61585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133858000" />
+    <option name="totallyTimeSpent" value="136948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,6 +260,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11134602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -279,7 +275,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -387,10 +383,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/revealator/fm.revealator.jquery.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="43" column="13" selection-start-line="43" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modern-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1351">
-          <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+        <state relative-caret-position="177">
+          <caret line="154" column="9" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
           <folding>
             <element signature="e#273#320#0" />
             <element signature="e#331#378#0" />
@@ -424,19 +434,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modern-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="292" column="44" lean-forward="true" selection-start-line="292" selection-start-column="44" selection-end-line="292" selection-end-column="44" />
+        <state relative-caret-position="287">
+          <caret line="117" column="137" selection-start-line="117" selection-start-column="137" selection-end-line="117" selection-end-column="137" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#strong#0;n#p#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#8737#8743#0" expanded="true" />
@@ -446,13 +452,6 @@
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/revealator/fm.revealator.jquery.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="212" selection-start-column="212" selection-end-column="212" />
         </state>
       </provider>
     </entry>
